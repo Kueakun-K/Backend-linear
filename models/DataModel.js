@@ -2,8 +2,8 @@ const mongoose = require('mongoose')
 
 const DataSchema = mongoose.Schema({
     dataName: String,
-    dataGame: String,
-    // time: String,
+    dataGameEUC: String,
+    dataGameCOV: String,
 })
 
 const DataModel = mongoose.model('Data', DataSchema)

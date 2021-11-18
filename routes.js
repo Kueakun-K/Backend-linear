@@ -6,5 +6,4 @@ router.get("/Datas", (req, res) => controllers.getDataController(req, res));
 
 router.post("/Data", (req, res) => controllers.createDataController(req, res));
 
-
 module.exports = router
